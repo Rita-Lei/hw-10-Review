@@ -1,0 +1,18 @@
+var x = 25; // x initial value
+function setup() { 
+  createCanvas(400, 400);
+} 
+
+function draw() { 
+	noStroke();
+  background(220);
+	
+
+if(x>=25 && x<=375) { // bec r = 25, so 25=<x<=375) 
+	x = x + 2; //speed
+	ellipse(x,200,50,50);
+	}
+		else{
+			x = 25; // reset x value to 25
+  }
+}
